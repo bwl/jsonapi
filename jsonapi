@@ -26,29 +26,7 @@ jsonapi test 1.6.2
 
 versions = {}
 
-# versions['1.4.7'] = package: 'v1_4_R1', cb_version: '1.4.7-R1.0'
-# versions['1.5.2'] = package: 'v1_5_R3', cb_version: '1.5.2-R1.0'
-# versions['1.6.2'] = package: 'v1_6_R2', cb_version: '1.6.2-R1.0'
-# versions['1.6.4'] = package: 'v1_6_R3', cb_version: '1.6.4-R2.0'
-# versions['1.7.2'] = package: 'v1_7_R1', cb_version: '1.7.2-R0.3'
-# versions['1.7.5'] = package: 'v1_7_R2', cb_version: '1.7.5-R0.1-SNAPSHOT'
-# versions['1.7.9'] = package: 'v1_7_R3', cb_version: '1.7.9-R0.2'
-# versions['1.7.10'] = package: 'v1_7_R4', cb_version: '1.7.10-R0.1-SNAPSHOT'
-# versions['1.8.0'] = package: 'v1_8_R1', cb_version: '1.8-R0.1-SNAPSHOT'
-# versions['1.8.8'] = package: 'v1_8_R3', cb_version: '1.8.8-R0.1-SNAPSHOT'
-versions['1.9'] = package: 'v1_9_R1', cb_version: '1.9-R0.1-SNAPSHOT'
-versions['1.9.2'] = package: 'v1_9_R1', cb_version: '1.9.2-R0.1-SNAPSHOT'
-versions['1.9.4'] = package: 'v1_9_R2', cb_version: '1.9.4-R0.1-SNAPSHOT'
-versions['1.10.2'] = package: 'v1_10_R1', cb_version: '1.10.2-R0.1-SNAPSHOT'
-
-# versions['1.4']   = versions['1.4.7']
-# versions['1.5']   = versions['1.5.2']
-# versions['1.6']   = versions['1.6.4']
-# versions['1.7']   = versions['1.7.10']
-# versions['1.8']   = versions['1.8.0']
-# versions['1.8.8']   = versions['1.8.8']
-# versions['1.9'] = versions['1.9']
-# versions['1.10'] = versions['1.10.2']
+versions['1.11.0'] = package: 'v1_11_R1', cb_version: '1.11-R0.1-SNAPSHOT'
 
 available_versions = Object.keys(versions)
 build_cmd = (ver, cmd = "clean install") ->
